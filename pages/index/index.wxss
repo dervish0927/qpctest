@@ -1,0 +1,40 @@
+
+.start {
+  width: 60%;
+  margin-top: 30rpx;
+  background-color: beige;
+  color: white;
+  border-radius: 98rpx;
+}
+
+.avatar {
+  display: block;
+  width: 60px;
+  height: 60px;
+  background: #E6E7ED;
+  border-radius: 30px;
+}
+
+.imagesize {
+  margin-top: 100px;
+  margin-bottom: 20px;
+  width: 100%;
+  height: 1000%;
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+  /** 垂直居中*/
+}
+
+.topic {
+  display: block;
+  text-align: center;
+  margin: 6px;
+}
+/*分割线样式*/
+.divLine{
+  /* background: #E0E3DA; */
+  width: 800%;
+  height: 5rpx;
+ }

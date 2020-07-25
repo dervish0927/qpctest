@@ -1,0 +1,14 @@
+<view>
+	<view class="top">
+		<view class='imagesize'>
+			<open-data type="userAvatarUrl" ></open-data>
+		</view>
+		<view>
+			<open-data type="userNickName" class="topic"></open-data>
+			<view class="topic">{{topic}}</view>
+		</view>
+	</view>
+	<!-- 分割线 -->
+	<view class="divLine"></view>
+	<button type='primary' class="start" bindtap="toAnswer">{{start}}</button>
+</view>

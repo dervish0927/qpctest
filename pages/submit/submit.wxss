@@ -1,0 +1,50 @@
+/* pages/salesCommission/withdrawResult.wxss */
+.imgsize {
+  width: 200rpx;
+  height: 200rpx;
+}
+
+.result {
+  margin-top: 120rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.margin-top-30 {
+  margin-top: 30rpx;
+}
+
+.start {
+  width: 80%;
+  margin-top: 20rpx;
+  background-color: beige;
+  color: white;
+  border-radius: 98rpx;
+}
+.score{
+  padding-bottom: 10px;
+}
+.desc {
+  width: 80%;
+  margin-bottom: 15px;
+  text-indent: 20px;
+  padding: 20px 10px 20px 10px;
+  border-radius: 7px;
+  box-shadow: 2px 2px 5px #a7a8ad;
+  line-height: 1.5;
+  /* background-color: #d2d8de; */
+}
+
+
+.imagesize {
+  margin-bottom: 20px;
+  width: 25%;
+  height: 25%;
+  display: flex;
+  justify-content: center;
+
+  align-items: center;
+  /** 垂直居中*/
+}

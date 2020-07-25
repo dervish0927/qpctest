@@ -1,0 +1,13 @@
+<!--pages/salesCommission/withdrawResult.wxml-->
+<view class="container">
+	<view class="result">
+		<view class='imagesize'>
+			<open-data type="userAvatarUrl" class="avatar"></open-data>
+		</view>
+		<view class="score">{{msg}} {{score}}</view>
+		<view class="desc">{{desc}}</view>
+	</view>
+	<view class="butbox" style="margin-top:40rpx;">
+		<button type='primary' class="start" bindtap="toAnswer">再测一次</button>
+	</view>
+</view>

@@ -1,0 +1,19 @@
+<view class="main">
+	<view class="desc">{{ desc }}</view>
+	<view class='quest_container' wx:for="{{quest}}" wx:key="id" wx:for-index="outterIndex">
+		<view class="title">{{outterIndex+1}}，{{item.question}}</view>
+		<view class="opts">
+		<view wx:for="{{item.answers}}" wx:key="content" bindtap="answerSelected" data-outidx='{{outterIndex}}' data-idx="{{index}}" class="item {{item.selected?'active':''}}">
+			<view class="tr {{item.index =='A'?'':'border-top-line'}}">
+				<radio checked="{{item.selected?true:false}}" color='#07c160' />
+				<text>{{item.index}}、 </text>
+				<text decode="{{true}}" space="{{true}}">&nbsp;</text>
+				<text> {{item.content}}</text>
+			</view>
+		</view>
+		</view>
+	</view>
+	<view class="btn-area">
+		<button type="primary" bindtap="submit">确认提交</button>
+	</view>
+</view>

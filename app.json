@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/topic/topic",
+    "pages/submit/submit"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#07c160",
+    "navigationBarTitleText": "奇葩测",
+    "navigationBarTextStyle": "white"
+  },
+
+  "sitemapLocation": "sitemap82.json"
+}

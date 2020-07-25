@@ -1,0 +1,58 @@
+.main {
+  font-size: 28rpx;
+}
+
+.quest_container {
+  padding: 30rpx 40rpx 30rpx 40rpx;
+}
+.title {
+  font-weight: bold;
+  padding-top: 10rpx;
+  padding-bottom: 20rpx;
+}
+.opts{
+  border:solid 1rpx #e0e5df;
+  border-radius:10px;
+}
+
+.tr {
+  height: 3.2rem;
+  display: flex;
+  align-items: center;
+  
+  padding: 10rpx 10rpx 10rpx 20rpx;
+  
+}
+.border-top-line{
+  border-top: solid 1rpx #e0e5df;
+}
+
+
+
+.active {
+  color: #07c160;
+}
+
+
+
+.btn-area {
+  padding: 10px;
+  margin-bottom: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+.desc {
+  border: 1rpx solid #e3e3e3;
+  border-radius: 3px;
+  padding: 20px 20px 15px;
+  margin-bottom: 20px;
+  color: #656565;
+}
